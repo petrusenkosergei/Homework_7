@@ -1,0 +1,75 @@
+
+.form {
+    margin-left: 20px;
+    width: 600px;
+    height: 600px;
+}
+.form_input {
+    display: block;
+    width: 300px;
+    height: 25px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border-color: green;
+}
+.form_inputText {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: Snell Roundhand;
+}
+.form_inputButton {
+    margin-top: 10px;
+
+}
+.form_inputButton {
+    position: relative;
+    vertical-align: top;
+    width: 300px;
+    height: 60px;
+    padding: 0;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #f1c40f;
+    border: 0;
+    border-bottom: 2px solid #e2b607;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #e2b607;
+    box-shadow: inset 0 -2px #e2b607;
+}
+.form_inputButton:active {
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form_inputResult{
+    margin-top: 30px;
+    color: black;
+    font-family:Snell Roundhand;
+    font-size: 30px;
+}
+#addSurnameNameMiddlename{
+    color: orange;
+    font-family:Snell Roundhand
+}
+#addAgeYears{
+    color: orange;
+    font-family:Snell Roundhand
+}
+#addAgeDays{
+    color: orange;
+    font-family:Snell Roundhand
+}
+#addGender{
+    color: orange;
+    font-family:Snell Roundhand
+}
+#addRetirementAge{
+    color: orange;
+    font-family:Snell Roundhand
+
+}

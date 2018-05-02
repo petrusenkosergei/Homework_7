@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = "ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Task_two</title>
+    <link rel="stylesheet" href="css/anketa_if.css">
+</head>
+<body>
+
+<div class="form">
+    <input type="text" name="surename" class="form_input" placeholder="Enter your last name" id="SureName">
+    <input type="text" name="name" class="form_input" placeholder="Enter your name" id="Name">
+    <input type="text" name="patronymic" class="form_input" placeholder="Enter your middle name" id="Patronymic" >
+    <input type="text" name="age" class="form_input" placeholder="Enter your age" id="Age">
+    <div class="form_inputText">Indicate your gender: </div>
+    <input type="radio" name="gender" value="Men" id="GenderMan" checked>Man<br>
+    <input type="radio" name="gender" value="Woman" id="GenderWoman">Women's<br>
+    <input type="button" class="form_inputButton" value="Confirm" id="addForm">
+    <div class="form_inputResult">
+        <div>Surname, Name, Middle name:
+            <span id="addSurnameNameMiddlename"></span>
+        </div>
+        <div>Age, years:
+            <span id="addAgeYears"></span>
+        </div>
+        <div>Age, days:
+            <span id="addAgeDays"></span>
+        </div>
+        <div>Gender:
+            <span id="addGender"></span>
+        </div>
+        <div>Retirement age:
+            <span id="addRetirementAge"></span>
+        </div>
+    </div>
+</div>
+<script src="js/anketa_if.js"></script>
+</body>
+</html>
